@@ -1,0 +1,35 @@
+{
+  "name": "youtube-backend",
+  "version": "1.0.0",
+  "description": "The basic architecture of YT backend",
+  "homepage": "https://github.com/AbhiJaybhaye/Youtube-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/AbhiJaybhaye/Youtube-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhiJaybhaye/Youtube-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Abhijeet J",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.0",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^1.4.5-lts.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
